@@ -460,106 +460,66 @@
             <div class="row padTB100">
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="office-detail-box">
-
-
-<!-- 
-                        <form name="contactform" method="post" action="send_form_email.php">
-                            <table width="450px">
-                                <tr>
-                                     <td valign="top">
-                                          <label for="first_name">Name *</label>
-                                     </td>
-                                     <td valign="top">
-                                          <input style="border: 3px solid"   type="text" name="first_name" maxlength="50" size="30">
-                                     </td>
-                                </tr>
-
-                                <tr>
-                                     <td valign="top">
-                                          <label for="email">Email Address *</label>
-                                     </td>
-                                     <td valign="top">
-                                          <input required type="text" name="email" maxlength="80" size="30">
-                                     </td>
-                                </tr>
-                                <tr>
-                                     <td valign="top">
-                                          <label for="comments">Message</label>
-                                     </td>
-                                     <td valign="top">
-                                          <textarea required  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-                                     </td>
-                                </tr>
-                                <tr>
-                                     <td colspan="2" style="text-align:center">
-                                          <input type="submit" value="Submit">
-                                     </td>
-                                </tr>
-                            </table>
-                        </form> -->
-                        <form method="post" action="send_form_email.php">
-                            <h3 class="office-detail-title">Contact Us Now!</h3>
-                            <input class="marB15" type="text" name="first_name" placeholder="Full Name">
-                            <input class="marB15" type="email" name="email" placeholder="Email Address">
-                            <textarea class="marB15" rows="5" cols="50" type="textarea" name="comments" placeholder="Type here message"></textarea>
-                            <input class="itg-button-2" type="submit"  name="button" value="Send Message">
-                        </form>
-
-
-                        <h3 class="office-detail-title">Contact Us Now!</h3>
-                        <input type="text" name="name" value="" placeholder="Full Name" class="marB15">
-                        <input type="text" name="email" value="" placeholder="Email Address" class="marB15">
-                        <textarea placeholder="Type here message" rows="5" cols="50" class="marB15" name="message"></textarea>
-                        <div class="office-detail-btn">
-                            <a href="#" class="itg-button-2">Send Message</a>
-                        </div>
+                        <form method="POST" action="email.php">
+                         <h3 class="office-detail-title">Contact Us Now!</h3>
+                         <input type="text" name="name" value="" placeholder="Full Name" class="marB15">
+                         <input type="text" name="email" value="" placeholder="Email Address" class="marB15">
+                         <textarea placeholder="Type here message" rows="5" cols="50" class="marB15" name="message"></textarea>
+                         <input type="submit" class="itg-button-2">
+                     </form>
+                     <h3 class="office-detail-title">Contact Us Now!</h3>
+                     <input type="text" name="name" value="" placeholder="Full Name" class="marB15">
+                     <input type="text" name="email" value="" placeholder="Email Address" class="marB15">
+                     <textarea placeholder="Type here message" rows="5" cols="50" class="marB15" name="message"></textarea>
+                     <div class="office-detail-btn">
+                        <a href="#" class="itg-button-2">Send Message</a>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-8 col-xs-12">
-                    <div class="office-detail-sec">
-                        <h3 class="office-detail-title">LOCATION OF MANUSELAPAK.COM</h3>
-                        <div class="marB30">
-                            <p>MANUSELAPAK.COM, stands for Manuselapak Healthy Life & Fitness, a company based in Phnomh Penh, Cambodia. Manu Selapak is in the business of making people the best versions of themselves, healthy, fit and confident. We strive to develop our customers with the highest standards available in the fitness industry today.</p>
-                        </div>
-                        <div class="marB30">
-                            <p>Our trainers have combined more than a decade of experience in the health & fitness industry and the main Trainer, Manu Selapak, is a professional Athlete, an MMA Fighter currently in the ONE FC roster.</p>
-                        </div>
-                        <div class="marB30">
-                            <p>Contact us now for a trial class.</p>
-                        </div>
-                        <div class="office-addres-box">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-12 col-xs-2 addres-iocns">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-12 col-xs-10 addres-detail">
-                                            <h5>Office Address</h5>
-                                            <p># 341, Mao Tse Toung Blvd<br>Toul Svay Prey 1<br>Phnom Phenh Cambodia</p>
-                                        </div>
+            </div>
+            <div class="col-md-9 col-sm-8 col-xs-12">
+                <div class="office-detail-sec">
+                    <h3 class="office-detail-title">LOCATION OF MANUSELAPAK.COM</h3>
+                    <div class="marB30">
+                        <p>MANUSELAPAK.COM, stands for Manuselapak Healthy Life & Fitness, a company based in Phnomh Penh, Cambodia. Manu Selapak is in the business of making people the best versions of themselves, healthy, fit and confident. We strive to develop our customers with the highest standards available in the fitness industry today.</p>
+                    </div>
+                    <div class="marB30">
+                        <p>Our trainers have combined more than a decade of experience in the health & fitness industry and the main Trainer, Manu Selapak, is a professional Athlete, an MMA Fighter currently in the ONE FC roster.</p>
+                    </div>
+                    <div class="marB30">
+                        <p>Contact us now for a trial class.</p>
+                    </div>
+                    <div class="office-addres-box">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-12 col-xs-2 addres-iocns">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-12 col-xs-10 addres-detail">
+                                        <h5>Office Address</h5>
+                                        <p># 341, Mao Tse Toung Blvd<br>Toul Svay Prey 1<br>Phnom Phenh Cambodia</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-12 col-xs-2 addres-iocns">
-                                            <i class="fa fa-phone" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-12 col-xs-10 addres-detail">
-                                            <h5>Phone</h5>
-                                            <p> <a style="color: white;" href="tel:+855969858548">+855969858548</a></p>
-                                        </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-12 col-xs-2 addres-iocns">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-12 col-xs-10 addres-detail">
+                                        <h5>Phone</h5>
+                                        <p> <a style="color: white;" href="tel:+855969858548">+855969858548</a></p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-12 col-xs-2 addres-iocns">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-12 col-xs-10 addres-detail">
-                                            <h5>Email Address</h5>
-                                            <p>manuselapak@gmail.com</p>
-                                        </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-12 col-xs-2 addres-iocns">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-12 col-xs-10 addres-detail">
+                                        <h5>Email Address</h5>
+                                        <p>manuselapak@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -569,6 +529,7 @@
             </div>
         </div>
     </div>
+</div>
 </section>
 <!--//=== Office Details Section Finish ===//-->
 <div class="clear"></div>
