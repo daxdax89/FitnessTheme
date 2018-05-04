@@ -1259,7 +1259,7 @@ a.navbar-brand {
 }
 #home-page-1 .navbar-collapse.body-menu-section ul.dropdown-menu li a {
     text-transform: capitalize;
-	color: #000;
+    color: #000;
 }
 #home-page-1 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
     color: white;
@@ -1501,7 +1501,7 @@ a.navbar-brand {
     padding-top: 20px;
     padding-bottom: 10px;
     color: #fff;
-	webkit-transition: all 0.45s ease-in-out;
+    webkit-transition: all 0.45s ease-in-out;
     -moz-transition: all 0.45s ease-in-out;
     -o-transition: all 0.45s ease-in-out;
     -ms-transition: all 0.45s ease-in-out;
@@ -1548,7 +1548,7 @@ a.navbar-brand {
     color: #000;
     font-size: 16px;
     font-weight: 600;
-	webkit-transition: all 0.45s ease-in-out;
+    webkit-transition: all 0.45s ease-in-out;
     -moz-transition: all 0.45s ease-in-out;
     -o-transition: all 0.45s ease-in-out;
     -ms-transition: all 0.45s ease-in-out;
@@ -1560,7 +1560,7 @@ a.navbar-brand {
     padding-bottom: 0px;
     font-size: 14px;
     margin-bottom: 0;
-	webkit-transition: all 0.45s ease-in-out;
+    webkit-transition: all 0.45s ease-in-out;
     -moz-transition: all 0.45s ease-in-out;
     -o-transition: all 0.45s ease-in-out;
     -ms-transition: all 0.45s ease-in-out;
@@ -3792,7 +3792,7 @@ a.ui-state-default:hover {
 .reply-text-comment a {
     font-size: 14px;
     padding-left: 5px;
-	text-transform: capitalize;
+    text-transform: capitalize;
 }
 .depth-section {
     width: 100%;
@@ -4193,9 +4193,9 @@ a.ui-button:active,
 .price-filter button, .price-filter input {
     margin-top: 30px;
 }
- .price-filter input {
+.price-filter input {
     padding: 0 9px;
-	text-align: center;
+    text-align: center;
 }
 .date-picker .ui-state-default,
 .ui-widget-content .ui-state-default,
@@ -4700,7 +4700,7 @@ bootstrap.min.css:5 * {
     font-weight: 300;
     margin: -51px auto 0;
     outline: medium none;
-	padding: 35px 0;
+    padding: 35px 0;
     position: absolute;
     text-align: center;
     top: 50%;
@@ -4745,7 +4745,7 @@ bootstrap.min.css:5 * {
     width: 100%;
     float: left;
     position: relative;
-	display:none;
+    display:none;
 }
 .pwsd p {
     font-size: 16px;
@@ -4877,7 +4877,7 @@ strong.dots-box a {
     float: left;
     width: 100%;
     position: relative;
-	margin-top: 5px;
+    margin-top: 5px;
 }
 .product-detail-btn {
     position: relative;
@@ -5097,7 +5097,7 @@ ul.fot-bom-bar {
 ul.fot-bom-bar li {
     display: inline-block;
     margin-left: 0;
-	text-transform: capitalize;
+    text-transform: capitalize;
 }
 .fot-bom-bar li a {
     font-size: 14px;
@@ -5263,4 +5263,54 @@ ul.fot-bom-bar li {
 }
 #scrollbtntop.showScrollTop i {
     transform: rotate(-45deg);
+}
+
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+
+}
+
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+
+}
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+
+}
+
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+ .parallax-style{
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: center; 
+    background-image: url('assets/img/banner/banner-2.jpeg');
+    background-size: cover;
+}
+}
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+ .parallax-style{
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: center; 
+    background-image: url('assets/img/banner/banner-2.jpeg');
+    background-size: cover;
+}
+}
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+ .parallax-style{
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: center; 
+    background-image: url('assets/img/banner/banner-2.jpeg');
+    background-size: cover;
+}
+
 }

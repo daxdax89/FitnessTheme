@@ -1,6 +1,6 @@
                       <?php
                       if($_POST){
-    $to_email = "daxdax89@msn.com"; //Recipient email, Replace with own email here
+    $to_email = "manuselapak@gmail.com"; //Recipient email, Replace with own email here
     $subject="***Enquiry from MANUSELAPAK.COM***";
     
 
