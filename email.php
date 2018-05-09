@@ -37,5 +37,7 @@
     'X-Mailer: PHP/' . phpversion();
     
     $send_mail = mail($to_email, $subject, $message_body, $headers);
-    
+    echo "<h1 style='text-align:center;'>Thank you for contacting us.<br>We will answer you as soon as possible.</h1>";
+    echo "<div style='text-align:center';><a href='index.html'>GO BACK</a></div>";
     ?>
+    
