@@ -38,6 +38,9 @@
     
     $send_mail = mail($to_email, $subject, $message_body, $headers);
     echo "<h1 style='text-align:center;'>Thank you for contacting us.<br>We will answer you as soon as possible.</h1>";
-    echo "<div style='text-align:center';><a href='index.html'>GO BACK</a></div>";
+    echo "<p style='text-align:center;'>Redirecting . . .</p>";
+    // echo "<div style='text-align:center';><a href='index.html'>GO BACK</a></div>";
+    echo "<meta http-equiv='Refresh' content='3; url=https://manuselapak.com/'>
+";
     ?>
     
